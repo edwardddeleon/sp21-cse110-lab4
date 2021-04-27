@@ -18,28 +18,50 @@
 9) error, since i is not defined as i is defined using let and cannot be used outside of the for loop
 10) 3, since prices.length is equal to 3 and cannot be changed
 11) [50, 100, 150], since discountedPrice is being calculated and reassigned each time in the for loop. It's correctly calculating half of the original price and then pushing it to discounted. Though discounted is a const, the array values inside discounted can be changed
+
 12)
 a) student.name
+
 b) student.["Grad Year"]
+
 c) student.greeting()
+
 d) student.["Favorite Teacher"].name
+
 e) student.courseLoad[0]
+
+
 13) 
 a) 32, integers map to their exact string representation
+
 b) 1, 3 becomes an integer and 2 is subtracted from it
+
 c) 3, null becomes 0 and 3 + 0 is 3
+
 d) 3null, null becomes a string and is appended to 3, making 3null
+
 e) 4, true maps to 1 and 1 + 3 is 4
+
 f) 0, false maps to 0 and null becomes 0, 0 + 0 is 0
+
 g) 3undefined, undefined becomes a string and is appended to 3
+
 h) NaN, undefined becomes NaN since you cannot subtract undefined from 3
+
+
 14)
 a) true, 2 becomes a number and 2 > 1 evaluates to true
+
 b) false, 2 and 12 become a number and 2 < 12 evaluates to false
+
 c) true, 2 becomes a number and 2 is equal to 2 is a true statement
+
 d) false, one 2 is a number and the other 2 is a string, strict type checking means they are not equal
+
 e) false, true maps to 1 and 1 equals 2 is a false statement
+
 f) true, Boolean(x) maps to true unless x = 0, null, undefiend, NaN, or "" and x = 2. true === true
+
 15) == is an equality test, checking if the left side and right side are equal. === checks equality, but without type conversion
 16) On part1b-question16.js
 17) [2,4,6] is the result. The callback is doSomething which multiplies the value of a num by 2. An array is passed in with [1,2,3] and then the contents are multiplied by 2 in the for loop and put in a new array, newArr which is returned
